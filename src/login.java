@@ -145,9 +145,7 @@ public class login extends javax.swing.JFrame {
         {
            System.out.println("Logged In Successfully");
            labelLogin.setText("Logged In "); 
-           this.hide();
-           Main obj = new Main();
-           obj.show();
+         
         }
         else
         {
